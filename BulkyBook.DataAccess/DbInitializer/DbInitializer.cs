@@ -54,6 +54,8 @@ namespace BulkyBook.DataAccess.DbInitializer
                 _roleManager.CreateAsync(new IdentityRole(StaticDetails.Role_User_Comp)).GetAwaiter().GetResult();
 
                 //if roles are not created, then we will create admin user as well.
+                // admin@decoder135.com
+                // Admin@123
 
                 _userManager.CreateAsync(new ApplicationUser
                 {
